@@ -22,7 +22,7 @@
       .col-md-4
         comp-card
       .col-md-4
-        comp-card
+        comp-card2
       .col-md-4
         comp-card
     
