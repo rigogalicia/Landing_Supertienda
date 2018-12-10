@@ -7,9 +7,12 @@
           b-nav-item(href='#') INICIO
           b-nav-item(href='#') SERVICIOS
           b-nav-item(href='#') CONTACTANOS
-
-    comp-carousel
-    
+    div
+      b-carousel#carousel1(style='text-shadow: 1px 1px 2px #333;', controls='', indicators='', background='#ababab', :interval='4000', img-width='1024', img-height='480', v-model='slide', @sliding-start='onSlideStart', @sliding-end='onSlideEnd')
+        b-carousel-slide(caption='First slide', text='Nulla vitae elit libero, a pharetra augue mollis interdum.', img-src='@/assets/Logo-fondo.jpg')
+        b-carousel-slide(caption='First slide', text='Nulla vitae elit libero, a pharetra augue mollis interdum.', img-src='https://picsum.photos/1024/480/?image=52')
+        b-carousel-slide(caption='First slide', text='Nulla vitae elit libero, a pharetra augue mollis interdum.', img-src='https://picsum.photos/1024/480/?image=52')
+    img(src="@/assets/prueba.png")
     .margen-content.row
       .col-md-3
       .col-md-6
