@@ -4,3 +4,11 @@
 .bg-cope {
     background: #073459;
 }
+
+.margen-content {
+    margin-top: 25px;
+}
+
+#card-form {
+    background: #f3f3f3;
+}
