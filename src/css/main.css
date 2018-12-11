@@ -12,3 +12,19 @@
 #card-form {
     background: #c8c8c8;
 }
+h1{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin:auto;
+    color: rgb(17, 17, 17,);
+    text-align: center;
+    margin-top: 25px;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin:auto;
+    color: rgb(17, 17, 17,);
+    text-align: center;
+}
