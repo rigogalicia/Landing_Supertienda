@@ -1,18 +1,18 @@
 @import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 @import '../../node_modules/bootstrap-vue/dist/bootstrap-vue.css';
 
-.bg-cope {
+.bg-cope {     /*Color de la nav-bar*/
     background: #073459;
 }
 
-.margen-content {
+.margen-content {   /* espacio entre sections*/
     margin-top: 25px;
 }
 
-#card-form {
+#card-form {    /*color de section cars*/
     background: #c8c8c8;
 }
-h1 {
+h2 {    /*formato de los titulos*/
     
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
@@ -22,7 +22,7 @@ h1 {
     margin-top: 68px;
 }
 
-.parrafo-titulo {
+.parrafo-titulo {   /*formato de parrafo*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     margin:auto;
@@ -30,25 +30,38 @@ h1 {
     text-align: center;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+#contact{  /*color de la section contactos*/
+    background: none;
+    
 }
 
-.fa:hover {
-    opacity: 0.7;
+#contact .info{
+    color: #333333;
+}
+#contact .info i{
+    font-size: 32px;
+    color: #073459;
+    float: left;
+}
+#contact .info p{
+    padding: 0 0 10px 50px;
+
 }
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
+.section-header .section-header{
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
 }
 
-.fa-instagram {
-  background: #125688;
-  color: white;
+.section-header .section-description{
+    text-align: center;
+    padding-bottom: 40px;
+    color: #999;
 }
+
+
+

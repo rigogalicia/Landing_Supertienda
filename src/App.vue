@@ -5,12 +5,12 @@
       b-collapse#nav_collapse(is-nav='')
         b-navbar-nav
           b-nav-item(href='#form-registro') INICIO
-          b-nav-item(href='#') SERVICIOS
-          b-nav-item(href='#') CONTACTANOS
+          b-nav-item(href='#services') SERVICIOS
+          b-nav-item(href='#contact') CONTACTANOS
 
     comp-carousel
     div#form-registro
-      h1
+      h2
         strong Comentarios o Dudas
       p.parrafo-titulo Sera un gusto atenderle.
     .margen-content.row
@@ -23,8 +23,8 @@
     
     .margen-content.row
       .col-md-4 
-      .col-md-4 
-        h1
+      #services.col-md-4 
+        h2
           strong Servicios
         p.parrafo-titulo Disfruta de nuestra gran variedad de servicios.
       .col-md-4 
@@ -44,11 +44,28 @@
       .col-md-4
         comp-card(imgUrl="src/assets/carproducto.jpg", titulo="Productos de consumo diario" descripcion="Diversos productos que engloban las marcas mas conocidas al mejor precio.")
 
+    .margen-content.row        
+      #contact.col-md-12
+        h2
+          strong Contactanos 
+        p.parrafo-titulo Buscanos para mayor informacion o inquietudes.
     .margen-content.row
-    
-      a.fa.fa-facebook(href='#')
 
     .margen-content.row
+      .col-md-2
+        comp-card(imgUrl="src/assets/autocar.jpg", titulo="Telefono", descripcion="Disfruta de nuestro seguro y amplio parqueo, ubicadi a un costado de Pollo Pinulitos.")
+      .col-md-2
+        comp-card(imgUrl="src/assets/autocar.jpg", titulo="Email", descripcion="Disfruta de nuestro seguro y amplio parqueo, ubicadi a un costado de Pollo Pinulitos.")
+      .col-md-2
+        comp-card(imgUrl="src/assets/autocar.jpg", titulo="Direccion", descripcion="Disfruta de nuestro seguro y amplio parqueo, ubicadi a un costado de Pollo Pinulitos.")
+      .col-md-2
+        comp-card(imgUrl="src/assets/autocar.jpg", titulo="Facebook", descripcion="Disfruta de nuestro seguro y amplio parqueo, ubicadi a un costado de Pollo Pinulitos.")
+      .col-md-2
+        comp-card(imgUrl="src/assets/autocar.jpg", titulo="Instagram", descripcion="Disfruta de nuestro seguro y amplio parqueo, ubicadi a un costado de Pollo Pinulitos.")
+      .col-md-2
+        comp-card(imgUrl="src/assets/autocar.jpg", titulo="", descripcion="Sera un gusto atenderlo.")
+    .margen-content.row
+                       
 </template>
 
 <script>
