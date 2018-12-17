@@ -50,21 +50,40 @@
           strong Contactanos 
         p.parrafo-titulo Buscanos para mayor informacion o inquietudes.
     .margen-content.row
-
     .margen-content.row
-      .col-md-2
-        comp-card(imgUrl="src/assets/autocar.jpg", titulo="Telefono", descripcion="Disfruta de nuestro seguro y amplio parqueo, ubicadi a un costado de Pollo Pinulitos.")
-      .col-md-2
-        comp-card(imgUrl="src/assets/autocar.jpg", titulo="Email", descripcion="Disfruta de nuestro seguro y amplio parqueo, ubicadi a un costado de Pollo Pinulitos.")
-      .col-md-2
-        comp-card(imgUrl="src/assets/autocar.jpg", titulo="Direccion", descripcion="Disfruta de nuestro seguro y amplio parqueo, ubicadi a un costado de Pollo Pinulitos.")
-      .col-md-2
-        comp-card(imgUrl="src/assets/autocar.jpg", titulo="Facebook", descripcion="Disfruta de nuestro seguro y amplio parqueo, ubicadi a un costado de Pollo Pinulitos.")
-      .col-md-2
-        comp-card(imgUrl="src/assets/autocar.jpg", titulo="Instagram", descripcion="Disfruta de nuestro seguro y amplio parqueo, ubicadi a un costado de Pollo Pinulitos.")
-      .col-md-2
-        comp-card(imgUrl="src/assets/autocar.jpg", titulo="", descripcion="Sera un gusto atenderlo.")
-    .margen-content.row
+      .col-md-12
+        // Footer
+        footer.bg-cope.page-footer
+          // Footer Elements
+          .container
+            // Social buttons
+            ul.list-unstyled.list-inline.text-center
+              li.list-inline-item
+                a.btn-floating.btn-fb.mx-1
+                  i.fa.fa-facebook  
+              li.list-inline-item
+                a.btn-floating.btn-tw.mx-1
+                  i.fa.fa-twitter  
+              li.list-inline-item
+                a.btn-floating.btn-gplus.mx-1
+                  i.fa.fa-google-plus  
+              li.list-inline-item
+                a.btn-floating.btn-li.mx-1
+                  i.fa.fa-linkedin  
+              li.list-inline-item
+                a.btn-floating.btn-dribbble.mx-1
+                  i.fa.fa-dribbble  
+            // Social buttons
+            // Footer Elements
+            // Copyright
+            .footer-copyright.text-center.py-3
+              | © 2018 Copyright:
+              a(href='https://mdbootstrap.com/education/bootstrap/')  MDBootstrap.com
+            // Copyright
+        // Footer
+    
+      
+    
                        
 </template>
 
@@ -87,5 +106,5 @@ export default {
 </script>
 
 <style>
-  @import './css/main.css'
+  @import './css/main.css';
 </style>
